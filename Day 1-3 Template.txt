@@ -1,0 +1,31 @@
+# Credit Risk Analysis (Day 1–3)
+
+This repository contains the first three days of work on a credit risk analysis project.  
+It includes:
+
+### Day 1:
+- Data loading
+- Cleaning & preprocessing using Scikit-Learn Pipelines
+- Fixing missing values & encoding
+
+### Day 2:
+- Univariate & Bivariate EDA
+- Correlation analysis
+- Statistical distribution plots
+
+### Day 3:
+- Train-test split
+- Baseline models (Logistic Regression, Decision Tree, etc.)
+- Model evaluation metrics (accuracy, precision, recall, F1)
+- Note: ROC-AUC scoring will be added in Day 4 after binary transformation of target.
+
+### Files Included:
+- `EDA_and_Modeling_Day1_to_Day3.ipynb` — main notebook
+- `requirements.txt` — dependencies
+- `/data/` folder — contains notes about dataset source
+
+### Upcoming Work:
+- Add ROC-AUC analysis
+- Hyperparameter tuning (GridSearchCV)
+- Feature selection & engineering
+- Final model saving using joblib
